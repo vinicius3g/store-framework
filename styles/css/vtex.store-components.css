@@ -1,5 +1,4 @@
-.infoCardHeadline--vintage,
-.infoCardHeadline--metal {
+.infoCardHeadline {
     font-family: serif;
     font-size: 2.25rem;
     font-weight: bold;
@@ -7,12 +6,12 @@
     border: 2px solid #000000;
     padding: 24px;
 }
-.infoCardCallActionContainer--vintage .infoCardCallActionContainer--metal :global(.vtex-button) {
+.infoCardCallActionContainer :global(.vtex-button) {
     color: #ffffff;
     background-color: #808080;
     border: transparent;
 }
-.infoCardCallActionContainer--vintage .infoCardCallActionContainer--metal :global(.vtex-button):hover {
+.infoCardCallActionContainer :global(.vtex-button):hover {
     color: #808080;
     background-color: #ffffff;
     border: transparent;
@@ -20,8 +19,7 @@
 .infoCardContainer--vintage {
     background-color: #EDCFD1;
 }
-.infoCardContainer--vintage,
-.infoCardContainer--metal {    
+.infoCardContainer {    
     max-width: 1260px;
     margin: 0 auto;
     padding: 0;
