@@ -2,7 +2,7 @@
     font-family: serif;
     font-size: 2.25rem;
     font-weight: bold;
-    color: #000000;
+    color: gray;
     border: 2px solid #000000;
     padding: 24px;
 }
@@ -12,9 +12,7 @@
     border: transparent;
 }
 .infoCardCallActionContainer :global(.vtex-button):hover {
-    color: #808080;
     background-color: #ffffff;
-    border: transparent;
 }
 .infoCardContainer--vintage {
     background-color: #EDCFD1;
