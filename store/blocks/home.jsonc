@@ -1,18 +1,11 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
-      "info-card",
-      "info-card#button-right"
+      "info-card#button-right",
+      "info-card#button-left"
     ]
   },
-  "rich-text": {
-    "props": {
-      "text": "**Hello, World!**",
-      "textPosition": "RIGHT"
-    }
-  },
-  "info-card": {
+  "info-card#button-right": {
     "props": {
     "isFullModeStyle": false,
     "textPosition": "right",
@@ -25,7 +18,7 @@
     "textAlignment": "center"
     }
   },
-  "info-card#button-right": {
+  "info-card#button-left": {
     "props": {
     "isFullModeStyle": false,
     "textPosition": "left",
