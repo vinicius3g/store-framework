@@ -1,4 +1,5 @@
-.infoCardHeadline {
+.infoCardHeadline--vintage,
+.infoCardHeadline--metal {
     font-family: serif;
     font-size: 2.25rem;
     font-weight: bold;
@@ -6,12 +7,12 @@
     border: 2px solid #000000;
     padding: 24px;
 }
-.infoCardCallActionContainer :global(.vtex-button) {
+.infoCardCallActionContainer--vintage .infoCardCallActionContainer--metal :global(.vtex-button) {
     color: #ffffff;
     background-color: #808080;
     border: transparent;
 }
-.infoCardCallActionContainer :global(.vtex-button):hover {
+.infoCardCallActionContainer--vintage .infoCardCallActionContainer--metal :global(.vtex-button):hover {
     color: #808080;
     background-color: #ffffff;
     border: transparent;
