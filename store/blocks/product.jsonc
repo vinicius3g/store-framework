@@ -1,6 +1,7 @@
 {
   "store.product": {
     "children": [
+      "breadcrumb",
       "flex-layout.row#main"
     ]
   },
@@ -15,7 +16,6 @@
   },
   "flex-layout.col#left": {
     "children": [
-      "breadcrumb",
       "product-images"
     ]
   },
