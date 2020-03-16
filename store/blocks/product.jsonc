@@ -23,13 +23,8 @@
     "children": [
       "product-name",
       "product-identifier.product",
-      "flex-layout.row",
-      "buy-button"
-    ],
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true
-    }
+      "flex-layout.row"
+    ]
   },
   "flex-layout.row": {
     "children": [
