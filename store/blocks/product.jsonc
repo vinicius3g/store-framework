@@ -16,18 +16,18 @@
   "flex-layout.col#left": {
     "children": [
       "product-images"
-    ],
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": "auto"
-    }
+    ]
   },
   "flex-layout.col#right": {
     "children": [
       "product-name",
       "product-price",
       "buy-button#product"
-    ]
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    }
   },
   "product-name": {
     "props": {
