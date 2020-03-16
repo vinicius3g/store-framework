@@ -22,7 +22,7 @@
     "children": [
       "product-name",
       "product-price",
-      "buy-button#product"
+      "buy-button"
     ],
     "props": {
       "verticalAlign": "middle",
@@ -41,7 +41,7 @@
       "showListPrice": true
     }
   },
-  "buy-button#product": {
+  "buy-button": {
     "props": {
       "isOneClickBuy": true,
       "showTooltipOnSkuNotSelected": false
