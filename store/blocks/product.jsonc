@@ -22,7 +22,6 @@
   "flex-layout.col#right": {
       "children": [
           "product-name",
-          "product-identifier.product",
           "flex-layout.row#qty-sku",
           "shipping-simulator"
       ]
