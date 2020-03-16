@@ -1,14 +1,8 @@
 {
   "store.product": {
     "children": [
-      "breadcrumb",
       "flex-layout.row#main"
     ]
-  },
-  "breadcrumb": {
-    "props": {
-      "showOnMobile": true
-    }
   },
   "flex-layout.row#main": {
     "props": {
@@ -21,6 +15,7 @@
   },
   "flex-layout.col#left": {
     "children": [
+      "breadcrumb",
       "product-images"
     ]
   },
@@ -37,18 +32,23 @@
       "preventVerticalStretch": true
     }
   },
-  "product-name": {
-    "props": {
-      "showSKU": true,
-      "showBrandName": true
-    }
-  },
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
       "product-quantity",
       "shipping-simulator"
     ]
+  },
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999
+    }
+  },
+  "product-name": {
+    "props": {
+      "showSKU": true,
+      "showBrandName": true
+    }
   },
   "product-price": {
     "props": {
