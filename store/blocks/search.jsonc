@@ -13,6 +13,8 @@
     "children": [
       "breadcrumb.search",
       "search-title.v2",
+      "flex-layout.row#top",
+      "flex-layout.row#result",
       "search-fetch-previous",
       "search-fetch-more"
     ],
