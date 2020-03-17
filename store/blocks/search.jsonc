@@ -14,8 +14,8 @@
       "breadcrumb.search",
       "search-title.v2",
       "flex-layout.row#top",
-      "flex-layout.row#result",
       "search-fetch-previous",
+      "flex-layout.row#result",
       "search-fetch-more"
     ],
     "props": {
@@ -45,10 +45,7 @@
   "flex-layout.col#search": {
     "children": [
       "search-content"
-    ],
-    "props": {
-      "Width": "20%"
-    }
+    ]
   },
   "search-content": {
     "blocks": [
