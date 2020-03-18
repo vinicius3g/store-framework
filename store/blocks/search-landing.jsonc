@@ -1,11 +1,11 @@
 {
     "store.custom#landing": {
         "blocks": [
-            "image#landingbanner",
+            "image",
             "search-result-layout.customQuery"
         ]
     },
-    "image#landingbanner": {
+    "image": {
         "props": {
             "maxWidth": "100%",
             "src": "https://www.vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/icones/vivo-ultravelocidade-internet-purpura-470x320.svg"
