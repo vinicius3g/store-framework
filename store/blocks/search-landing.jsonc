@@ -7,8 +7,9 @@
     },
     "image#landingbanner": {
         "props": {
-            "src": "https://www.vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/icones/vivo-ultravelocidade-internet-purpura-470x320.svg",
-        "maxWidth": "100%"
+            "maxWidth": "100%",
+            "src": "https://www.vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/icones/vivo-ultravelocidade-internet-purpura-470x320.svg"
+            
         }
     },
     "search-result-layout.customQuery": {
