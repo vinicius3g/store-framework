@@ -1,15 +1,14 @@
 {
     "store.custom#landing": {
         "blocks": [
-            "image",
+            "image#landingbanner",
             "search-result-layout.customQuery"
         ]
     },
-    "image": {
+    "image#landingbanner": {
         "props": {
-            "maxWidth": "100%",
-            "src": "https://www.vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/icones/vivo-ultravelocidade-internet-purpura-470x320.svg"
-            
+            "minWidth": "100%",
+            "src": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.w3schools.com%2Fw3css%2Fimg_lights.jpg&imgrefurl=https%3A%2F%2Fwww.w3schools.com%2Fw3css%2Fw3css_images.asp&tbnid=kwgHAQqTiLQXLM&vet=12ahUKEwiepvye4_TnAhWCCdQKHUEWC0EQMygBegUIARCDAg..i&docid=R0KnAtfyBDsyiM&w=600&h=400&q=image&ved=2ahUKEwiepvye4_TnAhWCCdQKHUEWC0EQMygBegUIARCDAg"
         }
     },
     "search-result-layout.customQuery": {
