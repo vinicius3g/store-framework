@@ -1,0 +1,25 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://www.vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/icones/vivo-ultravelocidade-internet-purpura-470x320.svg",
+        "maxWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "ft"
+            }
+        }
+    }
+}
